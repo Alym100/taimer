@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive;
+}
+
+body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.wrapper{
+    position: relative;
+    display: block;
+    padding: 60px 30px;
+}
+.wrapper h1{
+    font-style: 56px;
+}
+.wrapper .down{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.down{
+    padding: 20px;
+    margin: 20px;
+    background: aqua;
+}
